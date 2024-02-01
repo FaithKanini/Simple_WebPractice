@@ -1,0 +1,44 @@
+header {
+    background-color: #B9D9EB;
+    height: 70px;
+    align-items: center;
+}
+ul {
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+}
+
+li {
+    padding: 10px;
+    display: inline;
+}
+
+a{
+    color: #000;
+    transition: color o.3s ease;
+
+}
+
+a:hover{
+    color: #00f;
+}
+
+a:visited{
+    color: #800080;
+}
+
+.news-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: url(Tech-woman.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.news-items{
+    padding: 20px;
+    text-align: center;
+    background-color: #BBDDF2;
+}
