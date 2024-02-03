@@ -29,16 +29,70 @@ a:visited{
     color: #800080;
 }
 
-.news-container{
+.news-containerA{
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-image: url(Tech-woman.jpg);
-    background-size: cover;
-    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    background-image: url(news.bground.jpg);
 }
 
-.news-items{
+.news-item{
     padding: 20px;
     text-align: center;
-    background-color: #BBDDF2;
+}
+
+.news-containerB{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    max-height: 500px;
+}
+
+.news-itemA{
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.news-itemB{
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.itema{
+    padding: 20px;
+    text-align: center;
+}
+
+.itemb{
+    padding: 20px;
+    text-align: center;
+}
+
+.itemc{
+    padding: 20px;
+    text-align: center;
+}
+
+.itemd{
+    padding: 20px;
+    text-align: center;
+}
+
+.image{
+    max-height: 300px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: serif;
 }
